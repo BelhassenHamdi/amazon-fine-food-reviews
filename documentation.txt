@@ -27,11 +27,17 @@ II- Extractive methods approachs
 	1) Construct an intermediate representation of the input text which expresses the main aspects of the text.
 		a) topic representation:
 			Concept : 
-				text --> intermediate representation --> interpret the topic
+				text --> intermediate representation --> interpret the topic --> produce a summary
 			Methods :
 				* frequency-driven approaches
 				* topic word approaches
-				* 
+				* latent semantic analysis
+				* Bayesian topic models
+
+			Interpret the topic in practice :  assign an importance score to each sentence (the score is computed by aggregating the evidence from different indicator)
+
+			produce a summary in practice : summarizer system selects the top k most important sentences to produce a summary (greedy algorithms or  convert the selection of sentences into an optimization problem)
+			
 		b) indicator representation
 
 	2) Score the sentences based on the representation.
