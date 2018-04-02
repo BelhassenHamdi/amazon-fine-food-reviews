@@ -1,0 +1,38 @@
+I- Documentation for Text Summarization
+	
+	Blogs :
+
+	- https://machinelearningmastery.com/gentle-introduction-text-summarization/ :
+		* Extractive Methods
+		* Abstractive Methods
+	- https://research.googleblog.com/2016/08/text-summarization-with-tensorflow.html
+	- https://www.quora.com/Has-Deep-Learning-been-applied-to-automatic-text-summarization-successfully
+	- http://www.abigailsee.com/2017/04/16/taming-rnns-for-better-summarization.html
+	- https://memkite.com/deeplearningkit/2016/04/23/deep-learning-for-text-summarization/
+	- https://www.quora.com/Natural-Language-Processing-What-are-algorithms-for-auto-summarize-text
+
+
+	Papeers :
+
+	- https://arxiv.org/pdf/1707.02268.pdf : Text Summarization Techniques: A Brief Survey (focus on extractive summarization methods)
+	- https://arxiv.org/pdf/1704.04368.pdf : 
+	- https://arxiv.org/pdf/1602.06023.pdf
+	- https://arxiv.org/pdf/1509.00685.pdf
+	- http://thescipub.com/PDF/jcssp.2016.178.190.pdf
+	- https://www.ijarcce.com/upload/2016/march-16/IJARCCE%2040.pdf
+	- 
+
+II- Extractive methods approachs
+
+	1) Construct an intermediate representation of the input text which expresses the main aspects of the text.
+		a) topic representation:
+			Concept : 
+				text --> intermediate representation --> interpret the topic
+			Methods :
+				* frequency-driven approaches
+				* topic word approaches
+				* 
+		b) indicator representation
+
+	2) Score the sentences based on the representation.
+	3) select a summary comprising of a number of sentences.
