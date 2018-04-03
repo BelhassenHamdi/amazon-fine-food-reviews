@@ -29,8 +29,15 @@ II- Extractive methods approachs
 			Concept : 
 				text --> intermediate representation --> interpret the topic --> produce a summary
 			Methods :
-				* frequency-driven approaches
-				* topic word approaches
+				* frequency-driven approaches:
+					word probability
+					Term Frequency Inverse Document Frequency (TFIDF)
+				* topic word approaches :
+					frequency thresholds
+					log-likelihood ratio test to identify explanatory words (topic signature)
+					compute the importance of a sentence : 
+						1- function of the number of topic signatures it contains
+						2- theproportion of the topic signatures in the sentence
 				* latent semantic analysis
 				* Bayesian topic models
 
