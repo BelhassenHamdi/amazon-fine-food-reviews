@@ -8,7 +8,8 @@ from collections import Counter
 from autocorrect import spell
 
 
-# Inoticed that there are some HTML murkups in text so we need to get rid of them toward getting 
+# Inoticed that there are some HTML murkups in text so we need to get rid of 
+# them toward getting 
 # clean data for tokenization
 def cleanhtml(raw_html):
 	'''
@@ -67,12 +68,12 @@ for index, row in data.iterrows():
 	word_vocab += word_vocab_proc(row[0])
 	word_vocab += word_vocab_proc(row[1])
 
-word_vocab = set(word_vocab)
-word_vocab = list(word_vocab)
+# word_vocab = set(word_vocab)
+# word_vocab = list(word_vocab)
 final_word_string = ' '.join(word for word in word_vocab)
 
 
-with open("word_list.txt","w") as file:
+with open("word_count.txt","w") as file:
 	file.write(final_word_string)
 # print("vocab length: ", len(word_vocab))
 

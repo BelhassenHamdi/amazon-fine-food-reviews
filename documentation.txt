@@ -49,3 +49,5 @@ II- Extractive methods approachs
 
 	2) Score the sentences based on the representation.
 	3) select a summary comprising of a number of sentences.
+
+
